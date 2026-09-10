@@ -7,6 +7,7 @@ public class zeroMove {
             if(arr[left] == 0 || arr[right] != 0){
                 int temp = arr[left];
                 arr[left] = arr[right];
+                
                 arr[right] = temp ;
             }
             left ++;
