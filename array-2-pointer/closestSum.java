@@ -14,6 +14,7 @@ public class closestSum {
             int sum = arr[left] + arr[right];
 
             if (Math.abs(sum - target) < Math.abs(closestSum - target)) {
+                //Math.abs (math absolute) is used to get the absolute value of the difference between the current sum and the target, and the closest sum and the target. This ensures that we are always comparing positive values, regardless of whether the current sum is greater than or less than the target.
                 closestSum = sum;
                 first = arr[left];
                 second = arr[right];
